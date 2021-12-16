@@ -1,0 +1,29 @@
+<div id="status-panel">
+  <div id="status-sales-panel">
+    <div id="status-sales-panel-header" class="flex-row-nowrap-container">
+      <div class="flex-row-nowrap-container flex-center-children">
+        <fa-icon style="margin-left: 24px" [icon]="uploadIcon" [styles]="{ color: '#24B1FFFF' }" size="lg"></fa-icon>
+        <h2>Sales</h2>
+      </div>
+
+      <fa-icon id="info-icon" [icon]="infoCircleIcon" [styles]="{ color: 'darkgray' }" size="lg"></fa-icon>
+    </div>
+
+    <p id="status-sales-panel-body" class="medium-gray-text">
+      You had <strong>{{ salesOverview?.uploads }} uploads</strong> and
+      <strong>{{ salesOverview?.linesAttempted }} lines</strong> added.
+    </p>
+  </div>
+
+  <div class="flex-row-wrap-container">
+    <div id="upload-success-panel">
+      <p class="status-panel-percentage-text">{{ successfulUpload }}%</p>
+      <h3>UPLOAD SUCCESS</h3>
+    </div>
+
+    <div id="lines-saved-panel">
+      <p class="status-panel-percentage-text">{{ linesSaved }}%</p>
+      <h3>LINES SAVED</h3>
+    </div>
+  </div>
+</div>

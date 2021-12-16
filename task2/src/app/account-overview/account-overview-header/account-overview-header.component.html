@@ -1,0 +1,30 @@
+<div class="header-container flex-row-wrap-container">
+  <p class="header-main-title">Account Overview</p>
+
+  <div style="margin-right: 24px">
+    <h4 class="light-gray-text">YOUR FEEFO SUPPORT CONTACT</h4>
+
+    <div class="flex-row-nowrap-container">
+      <div class="support-name-letter-box flex-center-children">
+        <p class="support-name-letter-box-text">
+          {{ supportContact?.name?.charAt(0) }}
+        </p>
+      </div>
+
+      <div class="flex-row-wrap-container" style="margin-left: 10px">
+        <div class="flex-column-nowrap-container">
+          <p style="font-weight: bold">{{ supportContact?.name }}</p>
+
+          <div class="flex-row-nowrap-container flex-center-children">
+            <fa-icon [icon]="emailIcon" [styles]="{ color: 'dimgray' }"></fa-icon>
+            <p id="support-email-text" class="light-gray-text">
+              {{ supportContact?.email }}
+            </p>
+          </div>
+        </div>
+
+        <p id="support-phone-number" class="light-gray-text">020 3362 4208</p>
+      </div>
+    </div>
+  </div>
+</div>

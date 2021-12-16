@@ -1,0 +1,62 @@
+p {
+  margin: 16px;
+}
+
+h2 {
+  margin: 16px 16px 16px 10px;
+  font-weight: bold;
+}
+
+h3 {
+  margin: 0 16px 24px 24px;
+  color: darkgray;
+}
+
+#status-panel {
+  border-radius: 1%;
+  box-shadow: 0 0 5px lightgray;
+  background-color: white;
+}
+
+#status-sales-panel {
+  border-bottom: solid 1px;
+  border-color: lightgray;
+}
+
+#status-sales-panel-header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+#status-sales-panel-body {
+  margin: 24px;
+}
+
+#info-icon {
+  margin-right: 24px;
+}
+
+#upload-success-panel,
+#lines-saved-panel {
+  flex: 1;
+}
+
+#upload-success-panel {
+  border-right: solid 1px;
+  border-color: lightgray;
+}
+
+.status-panel-percentage-text {
+  color: seagreen;
+  font-weight: bold;
+  font-size: xxx-large;
+  margin: 16px 16px 0 24px;
+}
+
+@media only screen and (max-width: 353px) {
+  #upload-success-panel {
+    border-right: 0;
+    border-bottom: solid 1px;
+    border-color: lightgray;
+  }
+}

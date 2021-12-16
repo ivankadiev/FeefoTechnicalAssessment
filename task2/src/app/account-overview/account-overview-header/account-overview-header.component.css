@@ -1,0 +1,35 @@
+p {
+  margin: 5px 0;
+}
+
+#support-email-text {
+  margin-left: 8px;
+  margin-right: 20px;
+}
+
+#support-phone-number {
+  align-self: flex-end;
+}
+
+.header-container {
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.header-main-title {
+  align-self: center;
+  font-size: xx-large;
+}
+
+.support-name-letter-box {
+  display: flex;
+  min-width: 60px;
+  max-height: 60px;
+  background-color: gold;
+  border-radius: 15%;
+}
+
+.support-name-letter-box-text {
+  font-weight: bold;
+  font-size: x-large;
+}

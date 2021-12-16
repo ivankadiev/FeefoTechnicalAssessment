@@ -1,1 +1,59 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~font-awesome/css/font-awesome.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html {
+  background-color: #f1f1f1;
+}
+
+.inner-web-page {
+  margin: 0 5%;
+}
+
+.light-gray-text {
+  color: lightslategray;
+}
+
+.medium-gray-text {
+  color: #464646;
+}
+
+.flex-row-wrap-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.flex-row-nowrap-container {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flex-column-wrap-container {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.flex-column-nowrap-container {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.flex-center-children {
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-center-self {
+  align-self: center;
+  justify-self: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Roboto', sans-serif;
+}
